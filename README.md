@@ -8,7 +8,7 @@ This microservices is responsible for:
 4. To write all the information in a file with name corresponding to current date.
 
 Prerequisites
-1. To run this service ensure that kafka is running on port 9092
+1. To run this service ensure that kafka is running on port 9092 (https://kafka.apache.org/quickstart)
 2. Create following topics on Kafka before proceeding
    a. weatherdatainputtopic
    b. weatherdataoutputtopic
@@ -19,5 +19,4 @@ list of cities for which weather information is required
 Application can be started by in IDE as spring boot application or as a jar.
 
 Complete system diagram:
-Screenshot:
 ![alt text](https://github.com/saurabhku/weather-application-service/blob/master/images/SeqDiagram.jpg)
