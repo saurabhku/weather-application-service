@@ -1,6 +1,6 @@
 # weather-application-service
 
-Introduction<br>
+<b>Introduction</b><br>
 This microservices is responsible for:
 1. Using camel to poll a folder in file system to get input list of files
 2. Creating a Kafka event with the city list and sending it to a topic
@@ -21,7 +21,7 @@ Application can be started by in IDE as spring boot application or as a jar.
 <b>Complete system diagram:</b><br>
 ![alt text](https://github.com/saurabhku/weather-application-service/blob/master/images/SeqDiagram.jpg)
 
-<b>Input file Example:</<b>b><br>
+<b>Input file Example:</b><br>
 {"2643741":"City of London","2988507":"Paris","2964574":"Dublin","4229546":"Washington"}
 
 <br><b>Output generated</b><br>
